@@ -1,0 +1,31 @@
+
+header{
+    text-align: center;
+    color: cyan;
+    font-size: xx-large;
+    background-color: grey;
+    
+}
+
+p{
+    text-align: center;
+    color: black;
+    margin-top: 75px;
+    margin-bottom: 50px;
+    font-size: large;
+    background-color: grey;
+    
+}
+img{
+    
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+footer{
+    text-align: center;
+    font-size: large;
+}
+
