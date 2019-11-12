@@ -3,40 +3,40 @@
 var name= prompt('Hello. Whats your name?');
 alert( name+ ', Welcome to my page' );
 
- var one = prompt("Am I love car?");
- if (one === 'yes') {
+ var q1 = prompt("Am I love car?");
+ if (q1 === 'yes') {
     alert('you have a point');
     } else if(I=== 'no') {
         alert('you don\'t take a point');
     } 
    // console.log(I);
 
- var two = prompt("Am I have a drive license?");
- if (two=== 'no') {
+ var q2 = prompt("Am I have a drive license?");
+ if (q2=== 'no') {
     alert('you have a point');
     } else {
         alert('you don\'t take a point');
     }
    // console.log(II);
     
- var three = prompt("Am I love reading?");
- if (three=== 'yes') {
+ var q3 = prompt("Am I love reading?");
+ if (q3=== 'yes') {
    alert('you have another point')
     }else {
         alert('you don\'t take a point');
     } 
   //  console.log(III);
 
- var four = prompt("Am I have IPHONE?");
- if (four=== 'no') {
+ var q4 = prompt("Am I have IPHONE?");
+ if (q4=== 'no') {
     alert('you have another point')
     } else {
         alert('you don\'t take a point');
     } 
 // console.log(VI);
 
- var five = prompt("Am I lived in AMMAN?");
- if (five=== 'yes') {
+ var q5 = prompt("Am I lived in AMMAN?");
+ if (q5=== 'yes') {
 alert('good another point')    
     } else {
         alert('you don\'t take a point');
@@ -44,10 +44,10 @@ alert('good another point')
     // console.log(V);
 alert( name+ ', Have fun');
     
- one = one.toLowerCase();
- two = two.toLowerCase();
- three= three.toLowerCase();
- four = four.toLowerCase();
- five = five.toLowerCase();
+ q1 = q1.toLowerCase();
+ q2 = q2.toLowerCase();
+ q3= q3.toLowerCase();
+ q4 = q4.toLowerCase();
+ q5 = q5.toLowerCase();
         
  var answer ;
