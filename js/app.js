@@ -6,53 +6,53 @@ var name= prompt('Hello. Whats your name?');
 alert( name+ ', Welcome to my page' );
 
  var q1 = prompt("Am I love car?");
- if (q1 === 'yes') {
+ if (q1 === 'yes' || 'y') {
     alert('you have a point, ');
     counter++
-    } else if(I=== 'no') {
+    } else if(q1=== 'no' || 'n') {
         alert('you don\'t take a point');
     } 
-   // console.log(I);
+   // console.log(q1);
 
  var q2 = prompt("Am I have a drive license?");
- if (q2=== 'no') {
+ if (q2=== 'no' || 'n') {
     alert('you have a point');
     counter++
-    } else {
+    } else if (q2 === 'yes' || 'y'){
         alert('you don\'t take a point');
     }
-   // console.log(II);
+   // console.log(q2);
     
  var q3 = prompt("Am I love reading?");
- if (q3=== 'yes') {
+ if (q3=== 'yes' || 'y') {
    alert('you have another point')
    counter++
-    }else {
+    }else if (q3 === 'no' || 'n'){
         alert('you don\'t take a point');
     } 
-  //  console.log(III);
+  //  console.log(q3);
 
  var q4 = prompt("Am I have IPHONE?");
- if (q4=== 'no') {
+ if (q4=== 'no' || 'n') {
     alert('you have another point');
     counter++
-    } else {
+    } else if (q4 === 'yes' || 'y'){
         alert('you don\'t take a point');
     } 
-// console.log(VI);
+// console.log(q4);
 
  var q5 = prompt("Am I lived in AMMAN?");
- if (q5=== 'yes') {
+ if (q5=== 'yes' || 'y') {
 alert('good another point');
 counter++    
-    } else {
+    } else if (q5 === 'no' || 'n'){
         alert('you don\'t take a point');
     }
-    // console.log(V);
+    // console.log(q5);
     
  q1 = q1.toLowerCase();
  q2 = q2.toLowerCase();
- q3= q3.toLowerCase();
+ q3 = q3.toLowerCase();
  q4 = q4.toLowerCase();
  q5 = q5.toLowerCase();
         
@@ -95,7 +95,7 @@ var num = prompt('What is my favorite number?');
                       i=7;
                         break;
                  case cars[1]: 
-                 alert('you got it. take point');
+                     alert('you got it. take point');
                  counter++
                       i=7;
                         break;
@@ -139,7 +139,7 @@ var num = prompt('What is my favorite number?');
                }
              }
 
-             alert('My favourite car is nissan,kia,ford,bmw.mercedes,dodge,mazda,audi');
+             alert('My favourite cars is: nissan,kia,ford,bmw.mercedes,dodge,mazda,audi');
 
              alert('Thank you for your time, You have got ' + counter + '/7')
 
