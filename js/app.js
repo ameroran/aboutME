@@ -1,75 +1,75 @@
 'use strict'
 
 var counter = 0;
-var q1;
+
 var name = prompt('Hello. Whats your name?');
 alert(name + ', Welcome to my page');
 function guessCar() {
-   q1 = prompt("Am I love car?");
-  if (q1 === 'yes' || 'y') {
-    alert('you have a point, ');
-    counter++
-  } else if (q1 === 'no' || 'n') {
+  var q1 = prompt("Am I love car?");
+  if (q1 === 'yes') {
+    alert('you have a point');
+    counter++;
+  } else if (q1 === 'no') {
     alert('you don\'t take a point');
   }
   // console.log(q1);
 }
 guessCar();
 
-var q2;
+
 function guessLicense() {
-   q2 = prompt("Am I have a drive license?");
-  if (q2 === 'no' || 'n') {
+  var q2 = prompt("Am I have a drive license?");
+  if (q2 === 'no') {
     alert('you have a point');
-    counter++
-  } else if (q2 === 'yes' || 'y') {
+    counter++;
+  } else if (q2 === 'yes') {
     alert('you don\'t take a point');
   }
   // console.log(q2);
 }
 guessLicense();
-var q3;
+
 function guessReading() {
-   q3 = prompt("Am I love reading?");
-  if (q3 === 'yes' || 'y') {
+  var q3 = prompt("Am I love reading?");
+  if (q3 === 'yes' ) {
     alert('you have another point')
-    counter++
-  } else if (q3 === 'no' || 'n') {
+    counter++;
+  } else if (q3 === 'no') {
     alert('you don\'t take a point');
   }
   //  console.log(q3);
 }
 guessReading();
-var q4;
+
 function guessIphone() {
-   q4 = prompt("Am I have IPHONE?");
-  if (q4 === 'no' || 'n') {
+  var q4 = prompt("Am I have IPHONE?");
+  if (q4 === 'no') {
     alert('you have another point');
-    counter++
-  } else if (q4 === 'yes' || 'y') {
+    counter++;
+  } else if (q4 === 'yes') {
     alert('you don\'t take a point');
   }
   // console.log(q4);
 }
 guessIphone();
-var q5;
+
 function guessAmman() {
-   q5 = prompt("Am I lived in AMMAN?");
-  if (q5 === 'yes' || 'y') {
+  var q5 = prompt("Am I lived in AMMAN?");
+  if (q5 === 'yes') {
     alert('good another point');
-    counter++
-  } else if (q5 === 'no' || 'n') {
+    counter++;
+  } else if (q5 === 'no') {
     alert('you don\'t take a point');
   }
   // console.log(q5);
 }
 guessAmman();
 
-q1 = q1.toLowerCase();
-q2 = q2.toLowerCase();
-q3 = q3.toLowerCase();
-q4 = q4.toLowerCase();
-q5 = q5.toLowerCase();
+// q1 = q1.toLowerCase();
+// q2 = q2.toLowerCase();
+// q3 = q3.toLowerCase();
+// q4 = q4.toLowerCase();
+// q5 = q5.toLowerCase();
 
 var answer;
 
