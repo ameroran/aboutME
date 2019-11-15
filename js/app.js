@@ -4,12 +4,13 @@ var counter = 0;
 
 var name = prompt('Hello. Whats your name?');
 alert(name + ', Welcome to my page');
+alert('please answer by y for yes and n for no');
 function guessCar() {
   var q1 = prompt("Am I love car?");
-  if (q1 === 'yes') {
+  if (q1 == 'y' ) {
     alert('you have a point');
     counter++;
-  } else if (q1 === 'no') {
+  } else if (q1 == 'n') {
     alert('you don\'t take a point');
   }
   // console.log(q1);
@@ -19,10 +20,10 @@ guessCar();
 
 function guessLicense() {
   var q2 = prompt("Am I have a drive license?");
-  if (q2 === 'no') {
+  if (q2 === 'n') {
     alert('you have a point');
     counter++;
-  } else if (q2 === 'yes') {
+  } else if (q2 === 'y') {
     alert('you don\'t take a point');
   }
   // console.log(q2);
@@ -31,10 +32,10 @@ guessLicense();
 
 function guessReading() {
   var q3 = prompt("Am I love reading?");
-  if (q3 === 'yes' ) {
+  if (q3 === 'y' ) {
     alert('you have another point')
     counter++;
-  } else if (q3 === 'no') {
+  } else if (q3 === 'n') {
     alert('you don\'t take a point');
   }
   //  console.log(q3);
@@ -43,10 +44,10 @@ guessReading();
 
 function guessIphone() {
   var q4 = prompt("Am I have IPHONE?");
-  if (q4 === 'no') {
+  if (q4 === 'n') {
     alert('you have another point');
     counter++;
-  } else if (q4 === 'yes') {
+  } else if (q4 === 'y') {
     alert('you don\'t take a point');
   }
   // console.log(q4);
@@ -55,10 +56,10 @@ guessIphone();
 
 function guessAmman() {
   var q5 = prompt("Am I lived in AMMAN?");
-  if (q5 === 'yes') {
+  if (q5 === 'y') {
     alert('good another point');
     counter++;
-  } else if (q5 === 'no') {
+  } else if (q5 === 'n') {
     alert('you don\'t take a point');
   }
   // console.log(q5);
