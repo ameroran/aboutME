@@ -28,12 +28,18 @@ img{
     
 }
 
+/* img:hover{
+    transition: all;
+
+} */
+
 footer{
     text-align: center;
     font-size: large;
     color: blanchedalmond;
 }
-footer img{
+
+/* footer img{
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -41,7 +47,7 @@ footer img{
     height: 450pxpx;
     padding-bottom: 15px;
 
-}
+} */
 
 ol li {
 text-align: center;
